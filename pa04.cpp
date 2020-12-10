@@ -27,7 +27,7 @@ int main()
     v.shrink_to_fit();
     cout << "Capacity: " << v.capacity() << endl;
     */
-/*
+
     int j = 0;
     MyVector<int> v;
     //vector<int> v;
@@ -35,108 +35,108 @@ int main()
     cout << v.size() << endl;
     v.push_back(4000);
 
-    //cout << v.at(0) << endl;
-    //cout << v.capacity() << endl;
-    //cout << "Testing reserve:" << endl;
+    cout << v.at(0) << endl;
+    cout << v.capacity() << endl;
+    cout << "Testing reserve:" << endl;
     v.reserve(10);
-    //cout << v.capacity() << endl;
+    cout << v.capacity() << endl;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 
-    //cout << "Testing push_back(200):" << endl;
+    cout << "Testing push_back(200):" << endl;
     v.push_back(200);
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 //////////////////////////////
 
-    //cout << "Testing push_back(100):" << endl;
+    cout << "Testing push_back(100):" << endl;
     v.push_back(100);
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 //////////////////////////////
 
-    //cout << "Testing insert 3 at begin:" << endl;
+    cout << "Testing insert 3 at begin:" << endl;
     v.insert(v.begin(), 3);
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 //////////////////////////////
 
-    //cout << "Testing insert 20 at end:" << endl;
+    cout << "Testing insert 20 at end:" << endl;
     v.insert(v.end(), 20);
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 //////////////////////////////
 
-    //cout << "Testing removing element at index 2:" << endl;
+    cout << "Testing removing element at index 2:" << endl;
     v.remove(2);
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
-    //cout << endl;
+    cout << endl;
 
 
-    //cout << "Part 1 testing complete!" << endl;
+    cout << "Part 1 testing complete!" << endl;
 
-    //cout << endl;
+    cout << endl;
 
-    //cout << "printing using at" << endl;
+    cout << "printing using at" << endl;
     j = 0;
     for(auto i = v.begin(); i < v.end(); i++)
     {
-        //cout << v.at(j) << endl;
+        cout << v.at(j) << endl;
         j++;
     }
 
-    //cout << endl;
+    cout << endl;
 
-    //cout << "printing using []" << endl;
+    cout << "printing using []" << endl;
     j = 0;
     for(auto i = 0; i < v.size(); i++)
     {
-        //cout << v[j] << endl;
+        cout << v[j] << endl;
         j++;
     }
 
     MyVector<int> y;
     y=v;
-    //cout << "y=v" << endl;
+    cout << "y=v" << endl;
     j = 0;
     for(auto i = 0; i < y.size(); i++)
     {
-        //cout << y[j] << endl;
+        cout << y[j] << endl;
         j++;
     }
-*/
 
 
-    cout << "START" << endl;
+
+    cout << endl << "START BIGINTEGER TESTING" << endl;
 
     string init_string("2342323492423");
     cout << "init_string created" << endl;

@@ -10,6 +10,8 @@ A development environment will be needed to test this project. [Code::Blocks](ht
 
 Tests for this project can be seen through the console. Some lines which were commented out in the final version of this project have been uncommented to make presentation of the program more clear. 
 
+Running this program tests MyVector's member functions, BigInteger's member functions, and the overloaded operators.
+
 ## Built With
 
 * [Code::Blocks](http://www.codeblocks.org/) - Integrated Development Environment
